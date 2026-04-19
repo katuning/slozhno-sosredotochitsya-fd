@@ -1,5 +1,10 @@
 /* Глобальные стили для проекта, их можно дополнять и менять по желанию */
 
+html {
+  font-family: 'IBM Plex mono', sans-serif;
+  font-weight: 400;
+}
+
 *,
 *::before,
 *::after {
