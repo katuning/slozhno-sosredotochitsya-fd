@@ -1,9 +1,11 @@
 :root {
   --bg-color: #000028;
   --accent-font-color: #000028;
-  --main-font-color: #F1B2CE;
-  --accent-color: #FF0070;
-  --detail-color: #DB00FF;
+  --main-font-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --detail-color: #db00ff;
+  --secton-title-font-color: #ff0070;
+  --hover-color: #ff007066;
   --space-s: 10px;
   --space-m: 20px;
   --space-l: 30px;
