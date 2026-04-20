@@ -227,6 +227,7 @@ h4.title-decor {
 
   .header__lightbulb {
     top: 20px;
+    right: 48px;
   }
 
   .header__theme-menu {
@@ -312,10 +313,6 @@ h4.title-decor {
 
   .footer {
     min-height: 1024px;
-  }
-
-  .header__lightbulb {
-    right: 48px;
   }
 
   .decorated-zone::before {
