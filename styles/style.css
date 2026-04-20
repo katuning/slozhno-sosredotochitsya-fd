@@ -6,9 +6,8 @@
   background-color: var(--bg-color); 
   font-size: 18px;
   display: grid;
-  gap: var(--space-s);
+  gap: var(--space-l);
 }
-
 .header {
   height: 100vh;
   min-height: 668px;
@@ -77,11 +76,9 @@
   gap: var(--space-s);
 }
 
-.header__theme-menu-item {
-}
-
 .header__theme-menu-button_active {
   pointer-events: none;
+  border: solid 1px var(--accent-color);
 }
 
 .header__theme-menu-button {
@@ -99,10 +96,6 @@
 .header__theme-menu-button:focus-visible {
   border-bottom: solid 1px var(--accent-color);
   outline: none;
-}
-
-.header__theme-menu-button_active {
-  border: solid 1px var(--accent-color);
 }
 
 .header__title {
@@ -135,7 +128,7 @@ h4.title-decor {
 
 .main__container {
   display: grid;
-  gap: var(--space-m);
+  gap: var(--space-l);
 }
 
 .section {
@@ -306,9 +299,6 @@ h4.title-decor {
 
   .gallery-item__tape {
     grid-area: 2 / 1 / 4 / 2;
-  }
-
-  .gallery-item__books {
   }
 
   .gallery-item__street {
