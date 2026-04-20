@@ -1,36 +1,61 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --accent-font-color: #353430;
   --main-font-color: #353430;
-  --accent-color: #FF8DCB;
-  --detail-color: #FFC2E6;
+  --accent-color: #ff8dcb;
+  --detail-color: #ffc2e6;
   --bg-image: url(../images/cover-image-light.png);
 }
 
-.page {
-  --bg-image: url(../images/cover-image-light.png);
-  background-image: var(--bg-image);
-  background-color: var(--accent-font-color);
+.theme-light .header__lightbulb {
+  display: none;
+}
+
+.theme-light .header__theme-menu-button {
+  border-color: var(--main-font-color);
+  color: var(--main-font-color);
+}
+
+.theme-light .section__title {
+  color: var(--main-font-color);
+}
+
+.theme-light .decorated-zone::after {
+  border-color: var(--main-font-color);
+}
+
+.theme-light .decorated-zone::before {
+  border-color: var(--main-font-color);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-  --bg-color: #FFF1F7;
-  --accent-font-color: #353430;
-  --main-font-color: #353430;
-  --accent-color: #FF8DCB;
-  --detail-color: #FFC2E6;
+    --bg-color: #fff1f7;
+    --accent-font-color: #353430;
+    --main-font-color: #353430;
+    --accent-color: #ff8dcb;
+    --detail-color: #ffc2e6;
+    --bg-image: url(../images/cover-image-light.png);
   }
 
-  .page {
-  --bg-image: url(../images/cover-image-light.png);
-  background-image: var(--bg-image);
-  background-color: var(--accent-font-color);
+  .theme-light .header__lightbulb {
+    display: none;
+  }
+
+  .theme-light .header__theme-menu-button {
+    border-color: var(--main-font-color);
+    color: var(--main-font-color);
+  }
+
+  .theme-light .section__title {
+    color: var(--main-font-color);
+  }
+
+  .theme-light .decorated-zone::after {
+    border-color: var(--main-font-color);
+  }
+
+  .theme-light .decorated-zone::before {
+    border-color: var(--main-font-color);
   }
 }
