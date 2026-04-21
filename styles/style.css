@@ -51,7 +51,7 @@
   position: absolute;
   top: 10px;
   right: 38px;
-  display: block;
+  display: var(--ligthbulb-display);
   color: var(--accent-color);
   text-transform: uppercase;
 }
@@ -79,11 +79,6 @@
   gap: var(--space-s);
 }
 
-.header__theme-menu-button_active {
-  border: solid 1px var(--secton-title-font-color);
-  pointer-events: none;
-}
-
 .header__theme-menu-button {
   border: none;
   padding-inline: 13px;
@@ -99,6 +94,11 @@
 .header__theme-menu-button:focus-visible {
   border-bottom: solid 1px var(--secton-title-font-color);
   outline: none;
+}
+
+.header__theme-menu-button_active {
+  border: solid 1px var(--secton-title-font-color);
+  pointer-events: none;
 }
 
 .header__title {
@@ -254,10 +254,6 @@ h4.title-decor {
 
   .section {
     padding: var(--space-m);
-  }
-
-  .section__content {
-    gap: var(--space-m);
   }
 
   .section__why {

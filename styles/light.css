@@ -7,14 +7,11 @@
   --secton-title-font-color: #353430;
   --hover-color: #32312d66;
   --bg-image: url(../images/cover-image-light.png);
+  --ligthbulb-display: none;
 }
 
 .theme-light .header__lightbulb {
-  display: none;
-}
-
-.theme-auto .header__lightbulb {
-  display: none;
+  display: var(--ligthbulb-display);
 }
 
 @media (prefers-color-scheme: light) {
@@ -27,13 +24,10 @@
     --secton-title-font-color: #353430;
     --hover-color: #32312d66;
     --bg-image: url(../images/cover-image-light.png);
+    --ligthbulb-display: none;
   }
 
   .theme-light .header__lightbulb {
-    display: none;
-  }
-
-  .theme-auto .header__lightbulb {
-    display: none;
+    display: var(--ligthbulb-display);
   }
 }

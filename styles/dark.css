@@ -7,10 +7,11 @@
   --detail-color: #db00ff;
   --secton-title-font-color: #ff0070;
   --hover-color: #ff007066;
+  --ligthbulb-display: block;
 }
 
 .theme-dark .header__lightbulb {
-  display: block;
+  display: var(--ligthbulb-display);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,6 +27,6 @@
   }
 
   .theme-dark .header__lightbulb {
-    display: block;
+    display: var(--ligthbulb-display);
   }
 }

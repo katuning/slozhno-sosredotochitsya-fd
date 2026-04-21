@@ -11,4 +11,6 @@
   --space-l: 30px;
   --space-xl: 40px;
   --text-lh: 130%;
+  --ligthbulb-display: block;
+  --bg-image: url(../images/cover-image-dark.png);
 }
